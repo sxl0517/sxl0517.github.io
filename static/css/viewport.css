@@ -1,6 +1,6 @@
-
 .home,
-.back {
+.back,
+.tip_container {
 	top: calc(50% - 4.45rem) !important;
 	left: 48% !important;
 	font-size: 1rem;
@@ -40,8 +40,6 @@
 
 .photo {
 	position: absolute;
-	right: 10px;
-	bottom: 10px;
 	width: .8rem !important;
 	height: 1.6rem !important;
 }
@@ -72,4 +70,16 @@
 
 .content_text>p {
 	font-size: .28rem!important;
+}
+
+.click_tips {
+	  left: 7.1rem !important;
+    top: 6.8rem !important;
+}
+
+.tips {
+	left: calc(50% + 1.4rem) !important;
+	top: -3rem !important;
+	width: 2rem !important;
+	height: 1rem !important;
 }

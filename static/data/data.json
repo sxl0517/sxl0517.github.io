@@ -1,9 +1,9 @@
 baseData([{
-	title: 'vue-book',
+	title: '小飞飞的小仙女',
 	frontCover: {
-		logo: 'Wf',
-		title: '这是笔记本',
-		content: '青春纪念手册',
+		logo: 'li',
+		title: '青春纪念册',
+		content: 'Happy birthday to you !',
 		year: '2019'
 	},
 	content: [{
@@ -13,7 +13,7 @@ baseData([{
 			cur: 'ref_1',
 			next: 'ref_1_1',
 			chapter: '第一章',
-			title: '这是第一章标题',
+			title: '生',
 			content: ''
 		}, {
 			isTitle: false,
@@ -23,7 +23,7 @@ baseData([{
 			next: 'ref_1_2',
 			chapter: '',
 			title: '',
-			content: '这里是第一页文字这里是第一页文字'
+			content: '1994年6月25(农历5月17)，一个小仙女呱呱坠地'
 		}, {
 			isTitle: false,
 			isFront: true,
@@ -32,34 +32,24 @@ baseData([{
 			next: 'ref_1_3',
 			chapter: '',
 			title: '',
-			content: '这里是第二页文字这里是第二页文字'
+			content: '从此，开启了人生的酸甜苦辣'
 		}, {
 			isTitle: false,
 			isFront: true,
 			pre: 'ref_1_2',
 			cur: 'ref_1_3',
-			next: 'ref_1_4',
-			chapter: '',
-			title: '',
-			content: '这里是第三页文字这里是第三页文字'
-		}, {
-			isTitle: false,
-			isFront: true,
-			pre: 'ref_1_3',
-			cur: 'ref_1_4',
 			next: 'ref_2',
 			chapter: '',
 			title: '',
-			content: '这里是第四页文字这里是第四页文字'
-		},
-		{
+			content: '生命，给了你追求的机会，也给了你创造财富的机会'
+		}, {
 			isTitle: true,
 			isFront: true,
-			pre: 'ref_1_4',
+			pre: 'ref_1_3',
 			cur: 'ref_2',
 			next: 'ref_2_1',
 			chapter: '第二章',
-			title: '这是第二章标题',
+			title: '苦',
 			content: ''
 		},
 		{
@@ -70,17 +60,251 @@ baseData([{
 			next: 'ref_2_2',
 			chapter: '',
 			title: '',
-			content: '这里是第二章第一页这里是第二章第一页'
+			content: '苦，才是人生。生活从来没有一帆风顺'
 		},
 		{
 			isTitle: false,
 			isFront: true,
 			pre: 'ref_2_1',
 			cur: 'ref_2_2',
+			next: 'ref_2_3',
+			chapter: '',
+			title: '',
+			content: '技能，需要你苦苦摸索才能获取'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_2_2',
+			cur: 'ref_2_3',
+			next: 'ref_2_4',
+			chapter: '',
+			title: '',
+			content: '梦想，需要你苦苦追求才能实现'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_2_3',
+			cur: 'ref_2_4',
+			next: 'ref_3',
+			chapter: '',
+			title: '',
+			content: '幸福，需要你苦心经营才能拥有'
+		}, {
+			isTitle: true,
+			isFront: true,
+			pre: 'ref_2_4',
+			cur: 'ref_3',
+			next: 'ref_3_1',
+			chapter: '第三章',
+			title: '累',
+			content: ''
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_3',
+			cur: 'ref_3_1',
+			next: 'ref_3_2',
+			chapter: '',
+			title: '',
+			content: '累，这是生活的常态，生活不会让你一直轻松着'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_3_1',
+			cur: 'ref_3_2',
+			next: 'ref_3_3',
+			chapter: '',
+			title: '',
+			content: '随着年龄增长，扮演的角色越来越多，肩上的胆子也越来越重'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_3_2',
+			cur: 'ref_3_3',
+			next: 'ref_3_4',
+			chapter: '',
+			title: '',
+			content: '有学业时遇到不知所措的事而感到心累'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_3_3',
+			cur: 'ref_3_4',
+			next: 'ref_3_5',
+			chapter: '',
+			title: '',
+			content: '有步入社会后找不到理想工作而感到心累'
+		},  {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_3_4',
+			cur: 'ref_3_5',
+			next: 'ref_4',
+			chapter: '',
+			title: '',
+			content: '也有做事得不到理解而感到心累'
+		}, {
+			isTitle: true,
+			isFront: true,
+			pre: 'ref_3_5',
+			cur: 'ref_4',
+			next: 'ref_4_1',
+			chapter: '第四章',
+			title: '情',
+			content: ''
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_4',
+			cur: 'ref_4_1',
+			next: 'ref_4_2',
+			chapter: '',
+			title: '',
+			content: '情，是你必须珍惜的财富'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_4_1',
+			cur: 'ref_4_2',
+			next: 'ref_4_3',
+			chapter: '',
+			title: '',
+			content: '亲情，从小在家人中呵护和陪伴中慢慢长大'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_4_2',
+			cur: 'ref_4_3',
+			next: 'ref_4_4',
+			chapter: '',
+			title: '',
+			content: '友情，一生中，你会遇到很多朋友，你们一起畅谈，一起有说有笑'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_4_3',
+			cur: 'ref_4_4',
+			next: 'ref_4_5',
+			chapter: '',
+			title: '',
+			content: '爱情，长大了，你渴望爱情，渴望有个能保护你、宠着你、疼你的男人。你也会经历一段甜甜的爱情'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_4_4',
+			cur: 'ref_4_5',
+			next: 'ref_5',
+			chapter: '',
+			title: '',
+			content: '可能，你会为情所困，但是最终，你会因情而暖'
+		}, {
+			isTitle: true,
+			isFront: true,
+			pre: 'ref_4_5',
+			cur: 'ref_5',
+			next: 'ref_5_1',
+			chapter: '第五章',
+			title: '拼',
+			content: ''
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_5',
+			cur: 'ref_5_1',
+			next: 'ref_5_2',
+			chapter: '',
+			title: '',
+			content: '拼，是你人生的必经之路'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_5_1',
+			cur: 'ref_5_2',
+			next: 'ref_5_3',
+			chapter: '',
+			title: '',
+			content: '为学业而拼，为事业而拼，为梦想而拼'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_5_2',
+			cur: 'ref_5_3',
+			next: 'ref_5_4',
+			chapter: '',
+			title: '',
+			content: '唯有拼搏，才不枉在这世上走一走'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_5_3',
+			cur: 'ref_5_4',
+			next: 'ref_6',
+			chapter: '',
+			title: '',
+			content: '唯有拼搏，才会拥有更好的人生'
+		}, {
+			isTitle: true,
+			isFront: true,
+			pre: 'ref_5_4',
+			cur: 'ref_6',
+			next: 'ref_6_1',
+			chapter: '第六章',
+			title: '惜',
+			content: ''
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_6',
+			cur: 'ref_6_1',
+			next: 'ref_6_2',
+			chapter: '',
+			title: '',
+			content: '有些人，见一面就是最后一面'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_6_1',
+			cur: 'ref_6_2',
+			next: 'ref_6_3',
+			chapter: '',
+			title: '',
+			content: '有些机遇，错过了就成了过错'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_6_2',
+			cur: 'ref_6_3',
+			next: 'ref_6_4',
+			chapter: '',
+			title: '',
+			content: '请珍惜眼前人，把握当下机会'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_6_3',
+			cur: 'ref_6_4',
+			next: 'ref_6_5',
+			chapter: '',
+			title: '',
+			content: '不做无畏的等待，不做无畏的追逐'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_6_4',
+			cur: 'ref_6_5',
+			next: 'ref_6_6',
+			chapter: '',
+			title: '',
+			content: '怀揣一份美好愿望，带着一颗热忱勇敢前行'
+		}, {
+			isTitle: false,
+			isFront: true,
+			pre: 'ref_6_5',
+			cur: 'ref_6_6',
 			next: 'last',
 			chapter: '',
 			title: '',
-			content: '这里是第二章第二页这里是第二章第二页'
+			content: '希望未来，小仙女能幸福快乐'
 		}
 	]
 }])
